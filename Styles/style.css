@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*html {
+    background-image: url(https://www.tekcrispy.com/wp-content/uploads/2021/06/rick-morty-quinta-temporada-actores.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}*/
+
+
+/*header*/
+header div{
+    display: flex;
+    justify-content: center;
+}
+.image-ram {
+    width: 150px;
+}
+.title-logo {
+    width: 400px;
+}
+
+nav ul li {
+    display: flex;
+}
+
+.img-synopsis {
+    width: 150px;
+}
+.hbo-logo {
+    width: 150px;
+}
