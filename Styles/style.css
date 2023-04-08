@@ -127,15 +127,45 @@ h1 {
 }
 
 /* Watch the show*/
+.watch-the-show {
+  background-color: cyan;
+  padding: 20px;
+  display: flex;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',
+   sans-serif;   
+}
+
+.div-see-show {
+  text-align: left;
+  padding: 25px;  
+}
+
+.h2-see-show {
+  font-size: 35px;
+  margin: 20px;
+  text-align: left;
+}
+
+.show-bottom {
+  border: 25px;
+  align-items: center;
+}
+
 .hbo-logo {
-  width: 150px;
-  border-radius: 7px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.youtube-bottom {
+  width: 100px;
+  border-radius: 40px;
+  padding: 30px;
 }
 
 /*Aboute-me*/
 main section .about-me {
   height: 50%;
-  display: flex;
   padding: 30px;
   margin: 15px;
   /*align-items: center;*/
@@ -144,18 +174,22 @@ main section .about-me {
   background-color: beige;  
 }
 
-main section img .about-me {
-  width: 100px;
-  align-content: initial;
+.h2-me {
+  font-size: 35px;
+  margin: 20px;
+  pad: 10px;
+  text-align: center;
 }
 
-main section div .div-about-me {
-  margin: 30px;
-  padding: 20px;
-  background-color: beige;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.div-me {
+  display: flex;
+  margin: 10px;
 }
+ .div-about-me {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 20px;
+  align-items: center;
+ }
 /*footer*/
 /* FOOTER LISTO POR AHORA */
 footer {
