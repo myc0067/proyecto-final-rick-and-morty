@@ -1,35 +1,182 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*imagen por detrás
+    background-image: url();*/
 }
-/*html {
-    background-image: url(https://www.tekcrispy.com/wp-content/uploads/2021/06/rick-morty-quinta-temporada-actores.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-}*/
-
 
 /*header*/
-header div{
-    display: flex;
-    justify-content: center;
+/* HEADER LISTO - NO TOCAR */
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;/*manejo eje x*/
+  padding: 25px;
+  align-items: center;/*manejo eje y*/
 }
-.image-ram {
-    width: 150px;
-}
-.title-logo {
-    width: 400px;
+header div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li {
-    display: flex;
+div .image-ram {
+  width: 100px;
+  border-radius: 20px;
+}
+
+div .title-logo {
+  width: 250px;
+}
+
+header nav ul {
+  list-style: none;/*saco los puntitos de la lista*/
+  display: flex;
+}
+
+header nav ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: #0e1713;
+}
+
+/*main*/
+main {
+  background-color: yellowgreen;
+  padding: 10px;
+}
+
+/* Synopsis */
+/* NO TOCAR */
+.synopsis {
+  background-color: brown;
+  margin: 5px;
+  padding: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h2-synopsis {
+  text-align: center;
+  background-color: beige;
+  padding: 30px;
 }
 
 .img-synopsis {
-    width: 150px;
+  width: 150px;
+  margin: 15px;
+  border-radius: 20px;
 }
+
+.img-text {
+  display: flex;
+  margin: 10px;
+}
+
+.p-synopsis {
+  padding: 25px;
+  align-items: center;
+}
+
+/* Contenedor grilla*/
+/* NO TOCAR */
+
+.div-h1 {
+    background-color: tomato;
+    padding: 30px;
+}
+
+h1 {
+    background-color: thistle;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para item de grid */
+
+.grid-item {
+    background-color: thistle;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 220px;
+    margin: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Watch the show*/
 .hbo-logo {
-    width: 150px;
+  width: 150px;
+  border-radius: 7px;
+}
+
+/*Aboute-me*/
+main section .about-me {
+  height: 50%;
+  display: flex;
+  padding: 30px;
+  margin: 15px;
+  /*align-items: center;*/
+  /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+  background-color: beige;  
+}
+
+main section img .about-me {
+  width: 100px;
+  align-content: initial;
+}
+
+main section div .div-about-me {
+  margin: 30px;
+  padding: 20px;
+  background-color: beige;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*footer*/
+/* FOOTER LISTO POR AHORA */
+footer {
+  background-color: coral;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family:Impact, Haettenschweiler,
+   'Arial Narrow Bold', sans-serif;
+}
+
+footer div nav ul {
+  list-style: none;
+  display: flex;
+}
+
+div nav ul li {
+  padding: 5px;
+  margin: 20px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
 }
