@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
   /*imagen por detrás
     background-image: url();*/
 }
@@ -47,33 +48,35 @@ header nav ul li a {
 }
 .horizontal-line {
   width: 100%;
-  height: 2px;
-  background-color: #0e1713;
+  height: 3px;
+  background-color: #1e0280;
 }
 
 /*main*/
 main {
   background-color: yellowgreen;
   padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Synopsis */
 /* NO TOCAR */
 .synopsis {
-  background-color: brown;
+  /*background-color: brown;*/
   margin: 5px;
   padding: 15px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .h2-synopsis {
   text-align: center;
-  background-color: beige;
-  padding: 30px;
+  background-color: rgb(153, 153, 50);
+  font-size: 35;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .img-synopsis {
-  width: 150px;
+  width: 200px;
   margin: 15px;
   border-radius: 20px;
 }
@@ -91,20 +94,23 @@ main {
 /* Contenedor grilla*/
 /* NO TOCAR */
 
-.div-h1 {
+.div-h2 {
     background-color: tomato;
+    border-radius: 10px;
     padding: 30px;
 }
 
-h1 {
-    background-color: thistle;
+.h2-char {
+    background-color: rgb(218, 175, 218);
+    border-radius: 15px;
     padding: 30px;
     text-align: center;
 }
 
-.container {
+.char-container {
     padding: 30px;
     background-color: tomato;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -129,6 +135,7 @@ h1 {
 /* Watch the show*/
 .watch-the-show {
   background-color: cyan;
+  border-radius: 10px;
   padding: 20px;
   display: flex;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',
@@ -160,6 +167,7 @@ h1 {
 .youtube-bottom {
   width: 100px;
   border-radius: 40px;
+  margin: 25px;
   padding: 30px;
 }
 
@@ -169,8 +177,6 @@ main section .about-me {
   padding: 30px;
   margin: 15px;
   /*align-items: center;*/
-  /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
   background-color: beige;  
 }
 
@@ -183,11 +189,11 @@ main section .about-me {
 
 .div-me {
   display: flex;
-  margin: 10px;
+  margin: 20px;
 }
  .div-about-me {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding: 20px;
+  padding: 50px;
   align-items: center;
  }
 /*footer*/
@@ -210,7 +216,7 @@ footer div nav ul {
 div nav ul li {
   padding: 5px;
   margin: 20px;
-  background-color: aqua;
+  /*background-color: aqua;*/
   display: flex;
   align-items: center;
 }
