@@ -5,7 +5,7 @@
   box-sizing: border-box;
   
   /*imagen por detrás
-    background-image: url();*/
+    background-image: url()*/
 }
 
 /*header*/
@@ -133,6 +133,7 @@ main {
 
 /* Watch the show*/
 .watch-the-show {
+  justify-content:space-between;
   border-radius: 10px;
   padding: 20px;
   margin: 25px;
@@ -142,17 +143,18 @@ main {
 }
 
 .div-see-show {
-  text-align: left;
-  padding: 25px;  
+  text-align:left;
+  padding: 25px;
+}
+
+.div-see-show p{
+  margin-top: 15px;
 }
 
 .h2-see-show {
-  /*font-size: 35px;
-  margin: 20px;
-  text-align: left;*/
   background-color: rgb(191, 242, 140);
   border-radius: 15px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   border: solid green 10px;
 }
@@ -163,16 +165,9 @@ main {
 }
 
 .hbo-logo {
-  width: 200px;
+  width: 300px;
   border-radius: 20px;
   padding: 10px;
-}
-
-.youtube-bottom {
-  width: 100px;
-  border-radius: 40px;
-  margin: 25px;
-  padding: 30px;
 }
 
 /*Aboute-me*/
@@ -208,7 +203,7 @@ main section .about-me {
 /*footer*/
 /* FOOTER LISTO POR AHORA */
 footer {
-  background-color: coral;
+  background-color:  aqua;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -225,7 +220,6 @@ footer div nav ul {
 div nav ul li {
   padding: 5px;
   margin: 20px;
-  /*background-color: aqua;*/
   display: flex;
   align-items: center;
 }
