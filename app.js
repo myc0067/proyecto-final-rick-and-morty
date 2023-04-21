@@ -10,9 +10,9 @@ fetch("https://rickandmortyapi.com/api/character")
 
     for (let i = 0; i < personajes.length; i++) {
       $contenedor.innerHTML += `
-      <div class="char">
+      <div class="grid-char">
         <img class="char-img" src="${personajes[i].image}">
-        <p class="nombre-personaje">${personajes[i].name}</p>
+        <h3 class="nombre-personaje">${personajes[i].name}</h3>
         <p>Gender: ${personajes[i].gender}</p>
         <p>Species: ${personajes[i].species}</p>
         <p>Status: ${personajes[i].status}</p>

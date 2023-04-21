@@ -68,11 +68,11 @@ main {
 }
 
 .h2-synopsis {
+  background-color: rgb(191, 242, 140);
   text-align: center;
-  background-color: rgb(153, 153, 50);
-  font-size: 35;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 15px;
+  padding: 30px;
+  border: solid green 10px;
 }
 
 .img-synopsis {
@@ -95,65 +95,50 @@ main {
 /* NO TOCAR */
 
 .div-h2 {
-    background-color: tomato;
     border-radius: 10px;
     padding: 30px;
 }
 
 .h2-char {
-    background-color: rgb(218, 175, 218);
+    background-color: rgb(191, 242, 140);
     border-radius: 15px;
     padding: 30px;
     text-align: center;
+    border: solid green 10px;
 }
 
+/* Estilos para item de grid */
 .char-container {
-    /*padding: 20px*/
-    background-color: rgb(221, 42, 10);
-    /*border-radius: 10px;*/
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-}
-.char {
-  height: 200px;
-  width: 180px;
-  padding: 10px;
-  margin: 25px;
-  /*border-radius: 50%;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    justify-content: center;
+    border: green 15px;
 }
 
-.char .char-img{
+.grid-char {
+  background-color: rgb(191, 242, 140);
+  padding: 30px;
+  text-align: center;
+  width: 250px;
+  border-radius: 15px;
+  margin: 30px;
+  border: solid green 10px;
+}
+
+.grid-char .char-img{
+  width: 160px;
   border-radius: 50%;
 }
-/* Estilos para item de grid */
-/*
-.char-container .grid-item {
-    background-color: thistle;
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
-    width: 220px;
-    margin: 10px;
-}
-
-.char-container .grid-item img {
-    width: 100%;
-    border-radius: 50%;
-}*/
 
 /* Watch the show*/
 .watch-the-show {
-  background-color: cyan;
   border-radius: 10px;
   padding: 20px;
+  margin: 25px;
   display: flex;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',
-   sans-serif;   
+   sans-serif;
 }
 
 .div-see-show {
@@ -162,9 +147,14 @@ main {
 }
 
 .h2-see-show {
-  font-size: 35px;
+  /*font-size: 35px;
   margin: 20px;
-  text-align: left;
+  text-align: left;*/
+  background-color: rgb(191, 242, 140);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  border: solid green 10px;
 }
 
 .show-bottom {
@@ -189,16 +179,21 @@ main {
 main section .about-me {
   height: 50%;
   padding: 30px;
-  margin: 15px;
+  margin: 25px;
   /*align-items: center;*/
   background-color: beige;  
 }
 
 .h2-me {
-  font-size: 35px;
+  /*font-size: 35px;
   margin: 20px;
   pad: 10px;
+  text-align: center;*/
+  background-color: rgb(191, 242, 140);
+  border-radius: 15px;
+  padding: 30px;
   text-align: center;
+  border: solid green 10px;
 }
 
 .div-me {
