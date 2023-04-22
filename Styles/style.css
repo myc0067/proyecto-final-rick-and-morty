@@ -11,7 +11,7 @@
 /*header*/
 /* HEADER LISTO - NO TOCAR */
 header {
-  background-color: aqua;
+  background-color:rgb(187, 238, 98);
   display: flex;
   justify-content: space-between;/*manejo eje x*/
   padding: 25px;
@@ -203,7 +203,7 @@ main section .about-me {
 /*footer*/
 /* FOOTER LISTO POR AHORA */
 footer {
-  background-color:  aqua;
+  background-color: rgb(187, 238, 98);
   padding: 20px;
   display: flex;
   align-items: center;
