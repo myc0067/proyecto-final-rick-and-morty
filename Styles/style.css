@@ -118,11 +118,11 @@ main {
 
 .grid-char {
   background-color: rgb(191, 242, 140);
-  padding: 30px;
-  text-align: center;
+  padding: 20px;
   width: 250px;
+  text-align: center;
   border-radius: 15px;
-  margin: 30px;
+  margin: 20px;
   border: solid green 10px;
 }
 
@@ -222,4 +222,88 @@ div nav ul li {
   margin: 20px;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 880px) {
+  header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .p-synopsis p {
+    font-size: smaller;
+  }
+
+  .char-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .grid-char {
+    width: 40%;
+    height: 260px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .char-img {
+    width: 120px;
+  }
+  @media only screen and (max-width: 480px) {
+    li {
+      font-size: 20px;
+      padding: 10px;
+    }
+    .image-ram {
+      width: 150px;
+    }
+    .title-logo {
+      width: 270px;
+    }
+    .grid-char {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .synopsis, .watch-the-show {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .img-synopsis {
+      width: 70%;
+    }
+    .hbo-logo {
+      width: 90%;
+    }
+    footer {
+      height: 260px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    footer div nav ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
